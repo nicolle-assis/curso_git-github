@@ -5,3 +5,4 @@ esse arquivo contem informações adicionais para git
 
 comandos mais genéricos
 comandos mais estranhos
+mais comandos
