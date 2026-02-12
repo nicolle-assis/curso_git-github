@@ -1,8 +1,8 @@
 # Curso TMW Git & GitHub 2025
 
 Um curso para iniciantes aprenderem a trabalhar com versionamento de código utilizando Git e GitHub.
-confira o curso completo no youtube!!
-Totalmente gratuito!!
+confira o curso completo no youtube!
+Totalmente gratuito!
 [curso Git 2025](https://youtube.com/@teomewhy)
 
 Além do canal do youtube se liga no site e agenda para ficar por dentro de tudo que vai no ar.
