@@ -1,118 +1,200 @@
-# \# Curso TMW Git \& GitHub 2025
+# Curso TMW Git & GitHub 2025
 
-# 
+Um curso para iniciantes aprenderem a trabalhar com versionamento de código utilizando Git e GitHub.
 
-# Um curso para iniciantes aprenderem a trabalhar com versionamento de código e repositórios remotos com GitHub.
+Além disso, aborda:
 
-# 
+* GitFlow
+* Visual Studio Code
+* Repositórios remotos
+* Fluxos profissionais de trabalho
 
-# Além disso, vamos trabalhar com GitFlow ao final do curso e Visual Studio Code.
+Disponível gratuitamente no YouTube.
 
-# 
+---
 
-# Confira tudo o que temos no nosso YouTube. É gratis!
+# Fluxo de Trabalho — Git Local
 
-# 
+Utilizado quando você está trabalhando apenas no seu repositório local.
 
-# \## Fluxo de trabalho Git local
+```bash
+git checkout -b <nova-branch>
+```
 
-# 
+2. Criar ou atualizar arquivos
+3. Verificar alterações:
 
-# 01\. git checkout -b <nova-branch>
+```bash
+git status
+```
 
-# 02\. cria ou atualiza arquivos
+4. Adicionar arquivos ao stage:
 
-# 03\. git status
+```bash
+git add <arquivos>
+```
 
-# 05\. git add \*arquivos\*
+5. Verificar novamente:
 
-# 06\. git status
+```bash
+git status
+```
 
-# 07\. git commit -m "minha mensagem"
+6. Criar commit:
 
-# 08\. git checkout main
+```bash
+git commit -m "minha mensagem"
+```
 
-# 09\. git merge nova\_branch
+7. Voltar para a branch principal:
 
-# 
+```bash
+git checkout main
+```
 
-# \## Fluxo de trabalho GitHub <> Local (projeto próprio ou da sua empresa)
+8. Fazer merge da branch criada:
 
-# 01\. git clone <endereco do projeto>
+```bash
+git merge <nova-branch>
+```
 
-# 02\. git checkout -b <nova\_branch>
+---
 
-# 03\. alterações de arquivos
+# Fluxo de Trabalho — GitHub <> Local
 
-# 04\. git status
+## Projeto próprio ou da empresa
 
-# 05\. git add \*arquivos\*
+1. Clonar o projeto:
 
-# 06\. git status
+```bash
+git clone <endereco-do-projeto>
+```
 
-# 07\. git commit -m "nova mensagem"
+2. Criar nova branch:
 
-# 08\. git push origin <nova\_branch>
+```bash
+git checkout -b <nova-branch>
+```
 
-# 09\. abrir Pull request no GitHub para main
+3. Realizar alterações nos arquivos
+4. Verificar alterações:
 
-# 10\. excluir <nova\_branch> origin
+```bash
+git status
+```
 
-# 11\. git checkout main
+5. Adicionar arquivos:
 
-# 12\. git branch -D <nova\_branch>
+```bash
+git add <arquivos>
+```
 
-# 
+6. Verificar novamente:
 
-# \## Fluxo de trabalho GitHub <> Local (projetos open-source)
+```bash
+git status
+```
 
-# 01\. Fork do projeto para seu próprio github
+7. Criar commit:
 
-# 02\. git clone <endereco do projeto fork>
+```bash
+git commit -m "nova mensagem"
+```
 
-# 03\. git checkout -b <nova\_branch>
+8. Enviar branch para o GitHub:
 
-# 04\. alterações de arquivos
+```bash
+git push origin <nova-branch>
+```
 
-# 05\. git status
+9. Abrir Pull Request no GitHub para `main`
+10. Excluir branch remota após merge
+11. Voltar para main:
 
-# 06\. git add \*arquivos\*
+```bash
+git checkout main
+```
 
-# 07\. git status
+12. Excluir branch local:
 
-# 08\. git commit -m "nova mensagem"
+```bash
+git branch -D <nova-branch>
+```
 
-# 09\. git push origin <nova\_branch>
+---
 
-# 10\. abrir Pull request no GitHub da branch fork para a main do projeto original
+# Fluxo de Trabalho — GitHub <> Local
 
-# 11\. excluir <nova\_branch> origin
+## Projetos open source
 
-# 12\. git checkout main
+1. Fazer Fork do projeto para o seu GitHub
+2. Clonar o fork:
 
-# 13\. git branch -D <nova\_branch>
+```bash
+git clone <endereco-do-fork>
+```
 
-# 
+3. Criar nova branch:
 
-# ----
+```bash
+git checkout -b <nova-branch>
+```
 
-# 
+4. Realizar alterações
+5. Verificar alterações:
 
-# Pessoas participantes:
+```bash
+git status
+```
 
-# 
+6. Adicionar arquivos:
 
-# \- Igor Dammous
+```bash
+git add <arquivos>
+```
 
-# \- Infoslack
+7. Verificar novamente:
 
-# \- Leo Medeiros
+```bash
+git status
+```
 
-# \- Mateus Dantas
+8. Criar commit:
 
-# \- Nicolle de Assis
+```bash
+git commit -m "nova mensagem"
+```
 
-# \- Tales
+9. Enviar branch para seu fork:
 
-# \- Téo Calvo
+```bash
+git push origin <nova-branch>
+```
+
+10. Abrir Pull Request do seu fork para a `main` do projeto original
+11. Excluir branch remota após merge
+12. Voltar para main:
+
+```bash
+git checkout main
+```
+
+13. Excluir branch local:
+
+```bash
+git branch -D <nova-branch>
+```
+
+---
+
+# Pessoas Participantes
+
+* Igor Dammous
+* Infoslack
+* Leo Medeiros
+* Mateus Dantas
+* Nicolle de Assis
+* Tales
+* Téo Calvo
+
 
